@@ -1,4 +1,5 @@
 ## random LED effects
+designed for [notnite's lighting thing](https://github.com/NotNite/lightning/)
 
 
 ### compilation
@@ -8,7 +9,7 @@ emcc --target=wasm32 -O3 -s STANDALONE_WASM  -s EXPORTED_FUNCTIONS='["_tick"]' -
 ```
 
 ### emulator
-You should probably just use https://soulja-boy-told.me/public/lightning.html instead
+You should probably just use https://soulja-boy-told.me/public/lightning.html instead  
 Note: requires python3.10 since wasmer hasn't published a wheel for 3.11 yet
 
 ```shell
